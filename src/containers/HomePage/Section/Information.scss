@@ -1,0 +1,85 @@
+.section-share.information {
+    background-color: #f5f5f5;
+
+    .section-content.information {
+        display: flex;
+
+        .information-left {
+            margin-top: 15px;
+
+            .information-logo {
+                background-repeat  : no-repeat;
+                background-size    : contain;
+                height             : 60px;
+                background-position: center;
+            }
+
+            .information-body {
+                margin-top: 15px;
+
+                h3 {
+                    font-size  : 14px;
+                    font-weight: bold;
+                }
+
+                .information-date,
+                .information-address {
+                    i {
+                        margin-right: 5px;
+                        min-width   : 15px;
+                    }
+
+                    span {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .information-register {
+                display    : inline-flex;
+                padding-top: 15px;
+
+                .image-check {
+                    background-repeat: no-repeat;
+                    background-size  : contain;
+                    height           : 80px;
+                    width            : 220px;
+
+                }
+            }
+        }
+
+        .information-center {
+            margin-top: 15px;
+
+            ul {
+                padding        : 0;
+                text-decoration: none;
+                list-style     : none;
+
+                li {
+                    color        : #45c3d2;
+                    cursor       : pointer;
+                    margin-bottom: 18px;
+                }
+            }
+        }
+
+        .information-right {
+            margin-top     : 25px;
+            display        : flex;
+            flex-direction : column;
+            justify-content: space-between;
+
+            .information-right-content {
+
+                h3 {
+                    font-size  : 14px;
+                    font-weight: bold;
+                }
+
+            }
+
+        }
+    }
+}

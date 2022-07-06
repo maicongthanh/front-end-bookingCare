@@ -1,0 +1,124 @@
+.tippy-content {
+    div:nth-child(2) {
+        width: 100% !important;
+
+        .search-result {
+            width: 100%;
+
+            .search-title {
+                font-size  : 14px;
+                font-weight: 600;
+
+            }
+
+            .profile-content {
+                gap: 15px;
+
+                .avatar-doctor {
+                    width : 50px;
+                    height: 50px;
+                }
+
+                .infor-doctor {
+                    margin-top: 8px;
+
+                    .name-doctor {
+                        font-size: 14px;
+                        color    : #333;
+                    }
+
+                    .name-specialty {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .detail-doctor-search {
+        cursor     : pointer;
+        display    : flex;
+        align-items: center;
+
+        &:hover {
+            background-color: #eee;
+        }
+
+    }
+}
+
+.content-search {
+    background-color: #f5f5f5;
+    display         : flex;
+    align-items     : center;
+    padding         : 5px 0;
+    border-radius   : 30px;
+    margin-top      : 10px;
+    border          : 1px solid transparent;
+    width           : 100%;
+
+    .search {
+        width           : 100%;
+        border-radius   : 20px;
+        outline         : none;
+        padding         : 2px 10px;
+        background-color: transparent;
+        margin-left     : 15px;
+        outline         : none;
+        border          : none;
+    }
+
+    .search:not(:placeholder-shown)~.search-btn {
+        color: #0aaec7;
+    }
+
+
+    &:focus-within {
+        border-color: #ccc;
+    }
+
+    .spinner,
+    .search-btn,
+    .icon-clear {
+        outline         : none;
+        border          : none;
+        background-color: transparent;
+        color           : gray;
+        cursor          : pointer;
+    }
+
+    .icon-clear {
+        position: relative;
+        right   : 20px;
+
+    }
+
+    .spinner {
+        position: relative;
+        right   : 40px;
+    }
+
+    .spinner {
+        animation: spinner 0.7s linear infinite;
+    }
+
+    @keyframes spinner {
+        from {
+            transform: rotate(0);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .search-btn {
+        margin-right: 10px;
+        font-size   : 18px;
+        position    : relative;
+        right       : 20px;
+        border-left : 1px solid #ccc;
+        padding-left: 15px;
+    }
+}

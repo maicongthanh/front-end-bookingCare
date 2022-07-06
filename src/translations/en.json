@@ -1,0 +1,187 @@
+{
+    "home-header": {
+        "specialty": "Medical specialty",
+        "search-doctor": "Find a doctor by specialty",
+        "health-facility": "Health facility",
+        "select-room": "Choose hospital clinic",
+        "doctor": "Doctor",
+        "choose-doctor": "Choose a good doctor",
+        "fee": "Examination package",
+        "check-health": "General health check",
+        "support": "Support",
+        "welcome": "Welcome",
+        "clinic": "Clinic"
+    },
+    "banner": {
+        "title1": "Medical background",
+        "title2": " Comprehensive health care",
+        "option1": "Specialized examination",
+        "option2": "Remote examination",
+        "option3": "General examination",
+        "option4": "Medical test",
+        "option5": "Mental health",
+        "option6": "Dental examination",
+        "option7": "Surgery pack",
+        "option8": "Medical products"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Users System",
+            "manage-doctor": "Manage doctors",
+            "manage-admin": "Manage admins",
+            "crud": "CRUD user",
+            "crud-redux": "List doctor",
+            "manage-clinic": "Manage clinic",
+            "clinic": "Clinic",
+            "specialty": "Specialty",
+            "manage-specialty": "Manage specialty",
+            "posts": "Posts",
+            "manage-posts": " Manage posts"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor's schedule",
+            "manage-patient": "Manage doctor's patient",
+            "manage-revenue": "Manage doctor's revenue"
+        }
+    },
+    "manage-user": {
+        "add-new-user": "Manage User",
+        "Email": "Email",
+        "Password": "Password",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "address": "address",
+        "gender": "Gender",
+        "role": "Role",
+        "phoneNumber": "Phone number",
+        "image": "Avatar",
+        "birthday": " Date of birth",
+        "add": "Add new",
+        "position": "Position",
+        "edit": "Edit"
+    },
+    "homepage": {
+        "out-standing-doctor": "Out Standing Doctor",
+        "more-infor": "More"
+    },
+    "manage-schedule": {
+        "title": "Manage doctor's examination plan",
+        "choose-doctor": "Choose doctor",
+        "choose-day": "Choose day",
+        "save": "Save Information"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Schedule",
+            "messageTimeOut": "Today's appointment is over, please choose another date!",
+            "messageNoSchedule": " There is no appointment today, please choose another date!",
+            "booking-free-1": "Choose",
+            "booking-free-2": "and book (Free)"
+        },
+        "extra-doctor": {
+            "text-address": " ADDRESS OF EXAMINATION ",
+            "price": "PRICE :",
+            "detai-infor": " Show detail Information ",
+            "hidden-infor": " Hidden detail Information  ",
+            "text-payment": "  The patient can pay the cost in the form of : "
+        },
+        "booking": {
+            "more-information": " More information ",
+            "address": ". Address : ",
+            "time": ". Time :",
+            "date": ". Date : ",
+            "price": "Price :",
+            "title": "Information to book a medical appointment",
+            "email": "Email",
+            "firstName": "First name",
+            "lastName": "Last name",
+            "gender": "Gender",
+            "phoneNumber": "Phone number",
+            "birthday": "Date of birth",
+            "select-province": "Select province",
+            "select-district": "Select district",
+            "address-province": "Address",
+            "reason": "Reason for medical examination",
+            "confirm": "Confirm",
+            "cancel": "Cancel"
+        },
+        "specialty": {
+            "popular-specialties": "Popular specialties",
+            "more": "MORE",
+            "hidden": "Hidden",
+            "search": "Search by specialty : "
+        },
+        "clinic": {
+            "outstanding-clinic": "Outstanding medical facility",
+            "more": "MORE",
+            "hidden": "Hidden"
+        },
+        "posts": {
+            "title": "For doctors and medical facilities",
+            "all-post": "All Posts"
+        },
+        "media": {
+            "title": "What the media say about BookingCare"
+        },
+        "information": {
+            "title1": "BookingCare Technology Joint Stock Company",
+            "title2": "28 Thanh Thai , Dich Vong , Cau Giay , Hanoi",
+            "title3": "Business registration number: 0106790291. Hanoi Department of Planning and Investment issued on March 16, 2015",
+            "title4": "Contact for cooperation",
+            "title5": "Frequently asked questions",
+            "title6": "terms of use",
+            "title7": "Privacy Policy",
+            "title8": "Complaint handling support process",
+            "title9": "Operational Regulations",
+            "title10": "Headquarters in Hanoi",
+            "title11": "28 Thanh Thai, Dich Vong, Cau Giay, Hanoi",
+            "title12": "Office in Ho Chi Minh City",
+            "title13": "6/6 Cach Thang Tam, Ben Thanh Ward, District 1",
+            "title14": "Customer support",
+            "title15": "support@bookingcare.vn (7h - 18h)"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "add": "Create User",
+            "title": "CREATE MORE DOCTOR INFORMATION",
+            "choose-doctor": " Choose doctor ",
+            "price": " Price ",
+            "payment": "Payment",
+            "province": "Province",
+            "specialty": "Specialty ",
+            "clinic": "Clinic",
+            "address-clinic": "Address Clinic",
+            "noteVi": "Note (Vietnamese)",
+            "noteEn": "Note (English)",
+            "introVi": "Introduction (Vietnamese)",
+            "introEn": "Introduction (English)",
+            "create": "Create",
+            "edit": "Edit"
+        },
+        "manage-list-patient": {
+            "title": "LIST OF PATIENTS BOOKING A PHONE SCHEDULE",
+            "choose-doctor": " Choose a doctor ",
+            "choose-day": "Choose a date",
+            "time": "Time slot",
+            "fullName": "First and last name",
+            "birthday": "Date of birth",
+            "gender": "gender",
+            "address": "Address",
+            "phoneNumber": "phone number",
+            "reason": "reason"
+        },
+        "manage-revenue": {
+            "title": "Revenue management",
+            "choose-doctor": " Choose a doctor ",
+            "day": "Day",
+            "all-day": " Week - Month - Year",
+            "title2": "Revenue by",
+            "total": "total revenue",
+            "fullName": "Full name",
+            "address": "Address",
+            "gender": "Gender",
+            "phoneNumber": "phone number"
+        }
+    }
+}

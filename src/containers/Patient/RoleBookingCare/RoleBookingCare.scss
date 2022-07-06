@@ -1,0 +1,47 @@
+.background-role-booking {
+
+    background-color: #eeeeee;
+    padding         : 15px;
+
+    .role-booking-container {
+
+        .role-booking-care {
+            border       : 1px solid #ccc;
+            padding      : 10px 0;
+            text-align   : center;
+            border-radius: 5px;
+            color        : #45c3d2;
+            cursor       : pointer;
+
+            :hover {
+                opacity: 0.8;
+            }
+
+            span {
+                font-weight : 600;
+                margin-right: 5px;
+            }
+        }
+
+        .role-content {
+            margin-top    : 15px;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+.support-question {
+    background-color: #006e6f;
+    padding         : 15px 0;
+    font-weight     : 600;
+
+    .title1 {
+        color: white;
+    }
+
+    .title2 {
+        margin-left: 5px;
+        color      : yellow;
+        cursor     : pointer;
+    }
+}

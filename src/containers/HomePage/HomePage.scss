@@ -1,0 +1,109 @@
+.section-share {
+    border-bottom: 3px solid #efeef5;
+
+    .container {
+        height: 100%;
+
+        .section-content {
+            padding: 5px 0px;
+
+            .content-up {
+                display        : flex;
+                justify-content: space-between;
+                padding        : 30px 0;
+
+                .section-label {
+                    color      : black;
+                    font-size  : 24px;
+                    font-weight: bold;
+                }
+
+                .more {
+                    button {
+                        border        : none;
+                        outline       : none;
+                        background    : #ebebeb;
+                        padding       : 10px;
+                        font-weight   : lighter;
+                        font-size     : 12px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            .content-down {
+                padding-bottom: 20px;
+
+                .section-option {
+                    width: 95% !important;
+
+                    &:hover {
+                        cursor: pointer;
+
+                        p {
+                            color: #45c3d2;
+                        }
+                    }
+
+                    .section-image {
+                        padding-top        : 58%;
+                        background-position: center center;
+                        background-repeat  : no-repeat;
+                        background-size    : cover;
+                    }
+
+                    p {
+                        font-weight: lighter;
+                        font-size  : 13px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+button.slick-arrow.slick-prev,
+button.slick-arrow.slick-next {
+    background-color: red;
+    width           : 50px !important;
+    height          : 50px !important;
+    background      : #fff;
+    border          : 2px solid #d7d7d7;
+    opacity         : 0.75;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.slick-next {
+    right: -15px !important;
+    top  : 41% !important;
+}
+
+.slick-prev {
+    top: 41% !important;
+}
+
+.slick-prev {
+    z-index: 2 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color      : #333 !important;
+    font-weight: 600 !important;
+    font-size  : 30px !important;
+    font-family: FontAwesome !important;
+}
+
+button.slick-arrow.slick-next.slick-disabled {
+    display: none !important;
+}
+
+button.slick-arrow.slick-prev.slick-disabled {
+    display: none !important;
+}

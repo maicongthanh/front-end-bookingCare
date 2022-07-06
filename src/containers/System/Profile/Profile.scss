@@ -1,0 +1,47 @@
+.profile-container {
+    border: 1px solid #ccc;
+
+    .content-left {
+        display        : flex;
+        flex-direction : column;
+        align-items    : center;
+        margin-top     : 20px;
+        justify-content: center;
+        height         : 200px;
+
+        .image {
+            // background     : url('../../../assets/images/doctor/doctor9.jpg') center no-repeat;
+            // background-size: contain;
+            background-image   : url('../../../assets/images/doctor/doctor9.jpg');
+            background-position: center;
+            background-repeat  : no-repeat;
+            background-size    : contain;
+            width              : 120px;
+            height             : 120px;
+            border-radius      : 50%;
+        }
+    }
+
+    .options {
+        span {
+            font-weight: 600;
+            cursor     : pointer;
+            color      : #0071ba;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .content-right {
+        margin-top: 20px;
+
+        border: 1px solid red;
+        height: 300px;
+    }
+
+    .information-left {
+        border-left: 1px solid #ccc;
+    }
+}

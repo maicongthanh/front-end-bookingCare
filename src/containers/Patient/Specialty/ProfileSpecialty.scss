@@ -1,0 +1,21 @@
+.profile-specialty-container {
+    .specialty-item {
+        border-top: 1px solid #eee;
+        display   : flex;
+        gap       : 15px;
+        cursor    : pointer;
+
+        .image-specialty {
+            background-position: none;
+            background-size    : contain;
+            background-repeat  : no-repeat;
+            width              : 100px;
+            height             : 70px;
+            margin             : 15px 0;
+        }
+
+        .specialty-name {
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.profile-clinic-container {
+    .clinic-item {
+        border-top: 1px solid #eee;
+        display   : flex;
+        gap       : 15px;
+        cursor    : pointer;
+
+        .image-clinic {
+            background-image   : url('../../../assets/images/clinic/benh-vien-thu-cuc-1.jpg');
+            background-position: top left;
+            background-size    : contain;
+            background-repeat  : no-repeat;
+            width              : 120px;
+            height             : 60px;
+            margin             : 15px 0;
+        }
+
+        .clinic-name {
+            margin-top: 20px;
+        }
+    }
+}

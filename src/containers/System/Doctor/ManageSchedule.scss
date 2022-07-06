@@ -1,0 +1,134 @@
+.manage-schedule-container {
+    .manage-schedule-title {
+        text-transform: uppercase;
+        text-align    : center;
+        font-size     : 20px;
+        font-weight   : 600;
+        margin        : 15px 0;
+        color         : #0071ba;
+    }
+
+    .pick-hour-container {
+        display  : flex;
+        gap      : 20px;
+        flex-wrap: wrap;
+        height   : 160px;
+
+        .btn-schedule {
+            border       : none;
+            outline      : none;
+            padding      : 8px 10px;
+            border-radius: 3px;
+            background   : transparent;
+            border       : 1px solid #333;
+
+            min-width: 165px;
+
+            &.active {
+                background-color: orange;
+            }
+        }
+
+        .btn-save {
+            padding-left: 0 !important;
+        }
+    }
+
+    .list-time-schedule {
+        .schedule-time {
+            text-align : center;
+            font-weight: 600;
+        }
+    }
+}
+
+.react-datepicker__triangle {
+    &::before {
+        left: -22px !important;
+    }
+
+    &::after {
+        left: -22px !important;
+    }
+}
+
+
+#TableManageSchedule {
+    font-family    : Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width          : 100%;
+}
+
+#TableManageSchedule td,
+#TableManageSchedule th {
+    border : 1px solid #ddd;
+    padding: 5px 5px;
+}
+
+#TableManageSchedule tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#TableManageSchedule tr:hover {
+    background-color: #ddd;
+}
+
+#TableManageSchedule th {
+    padding-top     : 6px;
+    padding-bottom  : 6px;
+    text-align      : left;
+    background-color: #04AA6D;
+    color           : white;
+}
+
+.user-table {
+    .icon {
+        display    : flex;
+        align-items: center;
+        gap        : 15px;
+
+        button {
+            cursor          : pointer;
+            border          : none;
+            outline         : none;
+            background-color: transparent;
+
+            i {
+                font-size: 20px;
+
+                &.icon-pencil {
+                    color: orange;
+                }
+
+                &.icon-trash {
+                    color: rgb(202, 30, 30);
+                }
+            }
+        }
+    }
+}
+
+.icon {
+    display    : flex;
+    align-items: center;
+    gap        : 15px;
+
+    button {
+        cursor          : pointer;
+        border          : none;
+        outline         : none;
+        background-color: transparent;
+
+        i {
+            font-size: 20px;
+
+            &.icon-pencil {
+                color: orange;
+            }
+
+            &.icon-trash {
+                color: rgb(202, 30, 30);
+            }
+        }
+    }
+}

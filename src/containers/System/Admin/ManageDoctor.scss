@@ -1,0 +1,92 @@
+.manage-doctor-container {
+    padding: 0 10px;
+
+    .manage-doctor-editor {
+        .content-vi {
+            .up {
+                display: flex;
+                gap    : 10px;
+
+                .select {
+                    flex: 1;
+
+                    .select-doctor {
+                        width: 400px !important;
+                    }
+
+                    label {
+                        font-weight: 600;
+                    }
+                }
+
+                .more-infor {
+                    flex: 1;
+
+                    .infor-markdown {
+                        font-size  : 16px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .content-en {
+            .up {
+                display: flex;
+                gap    : 10px;
+
+                .select {
+                    flex: 1;
+
+                    .select-doctor {
+                        width: 400px !important;
+                    }
+
+                    label {
+                        font-weight: 600;
+                    }
+                }
+
+                .more-infor {
+                    flex: 1;
+
+                    .infor-markdown {
+                        font-size  : 16px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+
+        .save-content-doctor {
+            border          : none;
+            outline         : none;
+            margin-top      : 10px;
+            padding         : 5px 10px;
+            border-radius   : 3px;
+            background-color: orange;
+            color           : white;
+            margin-bottom   : 30px;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+
+        .create-content-doctor {
+            border          : none;
+            outline         : none;
+            margin-top      : 10px;
+            padding         : 5px 10px;
+            border-radius   : 3px;
+            background-color: #0071ba;
+            color           : white;
+            margin-bottom   : 30px;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+}

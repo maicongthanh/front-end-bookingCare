@@ -1,0 +1,122 @@
+.manage-revenue-container {
+    .manage-revenue-title {
+        text-align : center;
+        font-size  : 20px;
+        font-weight: 600;
+        padding    : 8px 0;
+        color      : #337ab7;
+    }
+
+    .select-option {
+        .btn-revenue {
+            outline      : none;
+            border       : none;
+            padding      : 5px 8px;
+            border-radius: 4px;
+            margin-right : 15px;
+
+            &.active {
+                background-color: orange;
+            }
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+    }
+
+    .date-picker {
+        margin-top: 15px;
+        display   : flex;
+        gap       : 10px;
+
+        .day-date-picker {
+            width      : 40%;
+            display    : flex;
+            align-items: center;
+            gap        : 10px;
+        }
+
+        .week-month-date-picker {
+            display    : flex;
+            align-items: center;
+            width      : 40%;
+            gap        : 10px;
+        }
+
+        .btn-search {
+            display         : flex;
+            width           : 20%;
+            align-items     : center;
+            background-color: #337ab7;
+            width           : fit-content;
+            padding         : 5px 8px;
+            border-radius   : 4px;
+            cursor          : pointer;
+            color           : white;
+        }
+    }
+
+    .table.table-bordered {
+        .thead-custom {
+            background-color: #04AA6D;
+            color           : white;
+        }
+
+        .btn-confirm {
+            outline         : none;
+            border          : none;
+            background-color: orange;
+            padding         : 3px 8px;
+            border-radius   : 4px;
+
+            &:hover {
+                cursor : pointer;
+                opacity: 0.8;
+            }
+        }
+
+    }
+
+    .pagination {
+        .paginationBttns {
+            width          : 80%;
+            height         : 40px;
+            list-style     : none;
+            display        : flex;
+            justify-content: center;
+
+        }
+
+        .paginationBttns a {
+            padding        : 10px;
+            margin         : 8px;
+            border-radius  : 5px;
+            border         : 1px solid #337ab7;
+            color          : #337ab7;
+            cursor         : pointer;
+            outline        : none;
+            text-decoration: none;
+
+        }
+
+        .paginationBttns a:hover {
+            color           : white;
+            background-color: #337ab7;
+            outline         : none;
+            text-decoration : none;
+        }
+
+        .paginationActive a {
+            color           : white;
+            background-color: #337ab7;
+        }
+
+        .paginationDisabled {
+            display: none;
+        }
+    }
+
+
+}

@@ -1,0 +1,189 @@
+{
+    "home-header": {
+        "specialty": "Chuyên khoa",
+        "search-doctor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-room": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "choose-doctor": "Chọn bác sĩ",
+        "fee": "Gói khám",
+        "check-health": "Khám sức khoẻ tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào",
+        "clinic": "Phòng khám"
+    },
+    "banner": {
+        "title1": "Nền tảng y tế",
+        "title2": " Chăm sóc sức khoẻ toàn diện",
+        "option1": "Khám chuyên khoa",
+        "option2": "Khám từ xa",
+        "option3": "Khám tổng quát",
+        "option4": "Xét nghiệm y học",
+        "option5": "Sức khoẻ tinh thần",
+        "option6": "Khám nha khoa",
+        "option7": "Gói phẫu thuật",
+        "option8": "Sản phẩm y tế"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "CRUD user",
+            "crud-redux": "Danh sách bác sĩ",
+            "manage-clinic": "Quản lý phòng khám",
+            "clinic": "Phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "posts": "Bài viết",
+            "manage-posts": " Quản lý bài viết"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý kế hoạch khám bệnh",
+            "manage-patient": "Quản lý bệnh nhân khám bệnh",
+            "manage-revenue": "Quản lý doanh thu"
+        }
+    },
+    "manage-user": {
+        "add-new-user": "Quản lý người dùng",
+        "Email": "Email",
+        "Password": "Mật khẩu",
+        "firstName": "Họ",
+        "lastName": "Tên",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "role": "Quyền người dùng",
+        "phoneNumber": "Số điện thoại",
+        "image": "Ảnh đại diện",
+        "birthday": " Ngày sinh",
+        "add": "Thêm mới",
+        "position": "Chức vụ",
+        "edit": "Cập nhật"
+    },
+    "homepage": {
+        "out-standing-doctor": "Bác sĩ nổi bật",
+        "more-infor": "Xem thêm"
+    },
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+        "choose-doctor": "Chọn bác sĩ",
+        "choose-day": "Chọn ngày khám",
+        "save": "Lưu thông tin"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Lịch khám",
+            "messageTimeOut": "Hôm nay đã hết lịch khám , bạn vui lòng chọn ngày khác nhé !",
+            "messageNoSchedule": " Hôm nay không có lịch khám bệnh ,  bạn vui lòng chọn ngày khác nhé !",
+            "booking-free-1": "Chọn",
+            "booking-free-2": "và đặt (Phí đặt lịch 0đ)",
+            "today": "Hôm nay"
+        },
+        "extra-doctor": {
+            "text-address": "ĐỊA CHỈ KHÁM",
+            "price": "Giá khám :",
+            "detai-infor": " Xem chi tiết ",
+            "hidden-infor": " Ẩn chi tiết ",
+            "text-payment": "  Người bệnh có thể thanh toán chi phí bằng hình thức : "
+        },
+        "booking": {
+            "more-information": " Xem thêm",
+            "address": ". Địa điểm khám : ",
+            "time": ". Thời gian :",
+            "date": ". Ngày khám : ",
+            "price": "Giá khám :",
+            "title": "Thông tin đặt lịch khám bệnh",
+            "email": "Email",
+            "firstName": "Họ",
+            "lastName": "Tên",
+            "gender": "Giới tính",
+            "phoneNumber": "Số điện thoại",
+            "birthday": " Ngày sinh",
+            "select-province": "Chọn tỉnh thành",
+            "select-district": "Chọn quận huyện",
+            "address-province": "Địa chỉ",
+            "reason": "Lý do khám bệnh",
+            "confirm": "Xác nhận",
+            "cancel": "Hủy"
+        },
+        "specialty": {
+            "popular-specialties": "Chuyên khoa phổ biến",
+            "more": "Xem thêm",
+            "hidden": "Ẩn bớt",
+            "search": "Tìm kiếm theo chuyên khoa :"
+        },
+        "clinic": {
+            "outstanding-clinic": "Cơ sở y tế nổi bật",
+            "more": "Xem thêm",
+            "hidden": "Ẩn bớt",
+            "search": "Tìm kiếm theo địa phương"
+        },
+        "posts": {
+            "title": "Dành cho bác sĩ và cơ sở y tế",
+            "all-post": "Tất cả bài viết"
+        },
+        "media": {
+            "title": "Truyền thông nói gì về BookingCare"
+        },
+        "information": {
+            "title1": "Công ty Cổ phần Công nghệ BookingCare",
+            "title2": "28 Thành Thái , Dịch Vọng , Cầu Giấy , Hà Nội",
+            "title3": "ĐKKD số: 0106790291. Sở KHĐT Hà Nội cấp ngày 16/03/2015",
+            "title4": "Liên hệ hợp tác",
+            "title5": "Câu hỏi thường gặp",
+            "title6": "Điều khoản sử dụng",
+            "title7": "Chính sách Bảo mật",
+            "title8": "Quy trình hỗ trợ giải quyết khiếu nại",
+            "title9": "Quy chế hoạt động",
+            "title10": "Trụ sở tại Hà Nội",
+            "title11": "28 Thành Thái, Dịch Vọng, Cầu Giấy, Hà Nội",
+            "title12": "Văn phòng tại TP Hồ Chí Minh",
+            "title13": "6/6 Cách Mạch Tháng Tám, P. Bến Thành, Quận 1",
+            "title14": "Hỗ trợ khách hàng",
+            "title15": "support@bookingcare.vn (7h - 18h)"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "add": "Tạo mới người dùng",
+            "title": "TẠO THÊM THÔNG TIN BÁC SĨ",
+            "choose-doctor": " Chọn bác sĩ ",
+            "price": " Giá tiền ",
+            "payment": "Phương thức thanh toán",
+            "province": "Tỉnh thành",
+            "specialty": "Chuyên khoa",
+            "clinic": "Phòng khám",
+            "address-clinic": "Địa chỉ phòng khám",
+            "noteVi": "Note (Tiếng Việt)",
+            "noteEn": "Note (Tiếng Anh)",
+            "introVi": "Thông tin giới thiệu (Tiếng Việt)",
+            "introEn": "Thông tin giới thiệu (Tiếng Anh)",
+            "create": "Tạo mới thông tin",
+            "edit": "Lưu thông tin"
+        },
+        "manage-list-patient": {
+            "title": "DANH SÁCH BỆNH NHÂN ĐẶT LỊCH KHÁM BỆNH",
+            "choose-doctor": " Chọn bác sĩ ",
+            "choose-day": "Chọn ngày",
+            "time": "Khung giờ",
+            "fullName": "Họ và tên",
+            "birthday": "Ngày sinh",
+            "gender": "Giới tính",
+            "address": "Địa chỉ",
+            "phoneNumber": "Số điện thoại",
+            "reason": "Lý do khám bệnh"
+        },
+        "manage-revenue": {
+            "title": "Quản lý doanh thu",
+            "choose-doctor": " Chọn bác sĩ ",
+            "title2": "Doanh thu theo : ",
+            "total": "Tổng doanh thu",
+            "day": "Ngày",
+            "all-day": " Tuần - Tháng - Năm",
+            "fullName": "Họ và tên",
+            "address": "Địa chỉ",
+            "gender": "Giới tính",
+            "phoneNumber": "Số điện thoại"
+        }
+    }
+}

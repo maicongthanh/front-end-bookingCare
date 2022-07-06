@@ -1,0 +1,55 @@
+.all-doctor-container {
+
+    .content-doctor {
+        &.active {
+            margin-top: 400px;
+        }
+
+        .title-result-search,
+        .title-outstanding-doctor {
+            padding    : 10px 0;
+            font-weight: 600;
+        }
+
+        .list-doctor-result,
+        .outstanding-doctor {
+            &.active {
+                margin-top: 200px;
+            }
+
+            .detail-doctor {
+                display   : flex;
+                gap       : 10px;
+                cursor    : pointer;
+                border-top: 1px solid #eee;
+                padding   : 4px 0;
+
+                .profile-doctor-container {
+                    .profile-content {
+                        gap: 15px;
+
+                        .left {
+                            .avatar-doctor {
+                                height: 70px;
+                                width : 70px;
+                            }
+                        }
+
+                        .infor-doctor {
+                            margin-top: 8px;
+
+                            .name-doctor {
+                                font-size: 14px;
+                                color    : #333;
+                            }
+
+                            .name-specialty {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

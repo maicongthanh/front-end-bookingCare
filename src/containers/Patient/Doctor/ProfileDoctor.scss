@@ -1,0 +1,119 @@
+.profile-doctor-container {
+    margin-top: 10px;
+
+    .profile-content {
+        display: flex;
+        gap    : 30px;
+
+        .left {
+            text-align: center;
+
+            .avatar-doctor-detail,
+            .avatar-doctor {
+                height             : 100px;
+                width              : 100px;
+                background-position: center center;
+                background-repeat  : no-repeat;
+                background-size    : cover;
+                border-radius      : 50%;
+                margin-bottom      : 8px;
+            }
+
+            .avatar-doctor-detail {
+                cursor: pointer;
+            }
+
+            .more-detail-doctor {
+                color      : #337ab7;
+                cursor     : pointer;
+                font-weight: 600;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+        }
+
+        .infor-doctor {
+            display       : flex;
+            flex-direction: column;
+
+            .name-doctor-detail,
+            .name-doctor {
+                color      : #337ab7;
+                font-size  : 18px;
+                font-weight: 600;
+            }
+
+            .name-doctor-detail {
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .time-schedule {
+                display: inline-flex;
+
+                .content-left {
+                    display       : flex;
+                    flex-direction: column;
+                    max-width     : 250px;
+                    margin-left   : 16px;
+                    margin-right  : 20px;
+
+                    .name-clinic {
+                        padding    : 5px 0;
+                        font-weight: 600;
+                    }
+
+                    .address-clinic {
+                        font-weight: 600;
+                    }
+                }
+
+                .content-right {
+                    display       : flex;
+                    flex-direction: column;
+                    width         : 250px;
+
+                    .time {
+                        padding    : 5px 0;
+                        font-weight: 600;
+                    }
+
+                    .date {
+                        font-weight: 600;
+                    }
+                }
+
+            }
+
+            .description {
+                line-height       : 20px;
+                height            : 60px;
+                text-align        : justify;
+                overflow          : hidden;
+                display           : -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+            }
+
+            .location {
+                margin-top: 15px;
+
+                span {
+                    margin-left: 4px;
+                    font-size  : 13px;
+                }
+            }
+        }
+    }
+
+    .price {
+        padding       : 12px 0;
+        text-transform: uppercase;
+    }
+}

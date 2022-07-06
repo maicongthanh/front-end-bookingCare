@@ -1,0 +1,80 @@
+.booking-modal-container {
+    .booking-modal-context {
+        min-height    : 500px;
+        display       : flex;
+        flex-direction: column;
+
+        .booking-modal-header {
+            border-bottom  : 1px solid #ccc;
+            display        : flex;
+            align-items    : center;
+            justify-content: space-between;
+            padding        : 10px 0;
+            font-weight    : 600;
+            line-height    : 10px;
+
+            .right {
+                cursor: pointer;
+
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .booking-modal-body {
+            height: 100%;
+
+            .message-error {
+                font-weight: 600;
+                color      : red;
+            }
+        }
+
+        .booking-modal-footer {
+            display        : flex;
+            justify-content: flex-end;
+            height         : 30px;
+            margin-bottom  : 8px;
+            gap            : 10px;
+            margin-top     : 10px;
+
+            .btn-confirm {
+                border          : none;
+                outline         : none;
+                background-color: #0c94c1;
+                color           : white;
+                border-radius   : 4px;
+                min-width       : 80px;
+                padding         : 5px 0;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .btn-cancel {
+                border          : none;
+                outline         : none;
+                color           : white;
+                border-radius   : 4px;
+                background-color: gray;
+                min-width       : 50px;
+                min-width       : 80px;
+                padding         : 5px 0;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+div._loading_overlay_wrapper {
+    position: unset;
+
+    ._loading_overlay_overlay {
+        z-index: 8000;
+    }
+}

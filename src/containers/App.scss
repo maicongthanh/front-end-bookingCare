@@ -1,0 +1,104 @@
+@import "../styles/common.scss";
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section-share.information .section-content.information .information-left .information-register .image-check {
+        width: 150px !important;
+    }
+
+    .section-share.handbook .section-option-handbook .handbook-title {
+        padding  : 0 8px !important;
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .row.options-content {
+        margin-left: 0 !important;
+    }
+
+    .home-header-banner .banner-content .content-up .title1,
+    .home-header-banner .banner-content .content-up .title2 {
+        font-size  : 18px !important;
+        font-weight: 600;
+    }
+
+    .home-header-banner .banner-content .content-up .content-search {
+        width        : 290px !important;
+        margin-bottom: 20px
+    }
+
+    .home-header-banner .banner-content .content-down .options-content .option {
+        width: 90px !important;
+    }
+
+    .home-header-banner .banner-content .content-down .options-content .option .option-title {
+        font-size: 12px !important;
+    }
+
+    .section-share .container .section-content .content-up .section-label {
+        font-size: 14px !important;
+    }
+
+    .section-share .container .section-content .content-up .more button {
+        padding  : 6px !important;
+        font-size: 8px !important;
+    }
+
+    button.slick-arrow.slick-prev,
+    button.slick-arrow.slick-next {
+        display: none !important;
+    }
+
+    p {
+        font-size: 10px !important;
+    }
+
+    .section-share.doctor .content-down .section-option-doctor .section-image-doctor {
+        width : 65px;
+        height: 65px;
+    }
+
+    .section-share.doctor .content-down .section-option-doctor .position-name-doctor {
+        font-size: 10px
+    }
+
+    .section-share.doctor .content-down .section-option-doctor .clinic-doctor {
+        font-size: 9px
+    }
+
+    .section-share.doctor .content-down .section-option-doctor {
+        min-height: 150px
+    }
+
+    .section-share.handbook .section-option-handbook .handbook-title {
+        width    : 80px !important;
+        padding  : 0 8px;
+        font-size: 10px !important;
+    }
+
+    .section-share.media .content-down.media .video {
+        width: 100%;
+    }
+
+    .section-share.media .content-down.media .video-desc {
+        width    : 100%;
+        font-size: 12px;
+    }
+
+    .section-share.information .section-content.information .information-left .information-register .image-check {
+        width: 140px;
+    }
+
+    .information-right-content {
+        padding: 10px 0;
+    }
+
+    .home-header-banner .banner-content .content-up .content-search div:nth-child(1) .wrapper {
+        width: 310px !important;
+    }
+
+    .menu-container .menu-content {
+        width: 190px;
+    }
+}

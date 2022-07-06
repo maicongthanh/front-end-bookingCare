@@ -1,0 +1,15 @@
+.modal-content {
+    .prev-image {
+        height             : 200px;
+        border             : 1px solid #eee;
+        width              : 200px;
+        cursor             : pointer;
+        background-position: center;
+        background-repeat  : no-repeat;
+        background-size    : contain;
+    }
+}
+
+.modal-content .modal-header button {
+    color: black;
+}

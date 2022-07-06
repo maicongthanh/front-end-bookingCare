@@ -1,0 +1,105 @@
+@import "../../styles/common.scss";
+
+.header-container {
+    z-index         : 99;
+    display         : flex;
+    background-color: $colormain;
+    color           : $common-text-color;
+    height          : 55px;
+    position        : relative;
+    justify-content : space-between;
+    align-items     : center;
+
+    .header-tabs-container {}
+
+    .header-options {
+        display    : flex;
+        align-items: center;
+        gap        : 15px;
+
+        .languages {
+            border-right: 1px solid white;
+            padding     : 0 8px;
+
+            .language-vi {
+                margin-right: 5px;
+                cursor      : pointer;
+
+                &.active {
+                    color      : orange;
+                    font-weight: bold;
+                }
+            }
+
+            .language-en {
+                cursor: pointer;
+
+                &.active {
+                    color      : orange;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .avatar {
+            background-image   : url('../../assets/images/doctor/doctor9.jpg');
+            background-position: center center;
+            background-repeat  : no-repeat;
+            background-size    : contain;
+            width              : 45px;
+            height             : 45px;
+            border-radius      : 50%;
+            cursor             : pointer;
+            margin-right       : 35px;
+        }
+
+        .search-result {
+            min-width: 130px;
+            position : relative;
+            right    : 35px;
+
+            .wrapper {
+                background-color: #0071ba;
+            }
+
+            .information-profile {
+                display       : flex;
+                flex-direction: column;
+                cursor        : pointer;
+
+                .logout {
+                    padding   : 5px 0;
+                    margin-top: 8px;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+
+                .title-profile {
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .btn-logout {
+        color      : $common-text-color;
+        line-height: 40px;
+        height     : 40px;
+        padding    : 0 10px;
+
+        &:hover {
+            background-color: darken($colormain, 5);
+        }
+
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+
+}

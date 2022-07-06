@@ -1,0 +1,47 @@
+.section-share.doctor {
+    background-color: #fff;
+
+    .content-down {
+        padding-bottom: 20px;
+
+        .section-option-doctor {
+            display       : flex !important;
+            flex-direction: column;
+            align-items   : center;
+            width         : 97% !important;
+            min-height    : 230px;
+            margin-bottom : 30px;
+            border        : 1px solid #eee;
+
+            &:hover {
+                cursor: pointer;
+
+                .position-name-doctor {
+                    color: #45c3d2;
+                }
+            }
+
+            .section-image-doctor {
+                // background-image   : url('../../../assets/images/specialty/doctor9.jpg');
+                background-position: center center;
+                background-repeat  : no-repeat;
+                background-size    : cover;
+                width              : 120px;
+                height             : 120px;
+                border-radius      : 50%;
+                margin-top         : 15px;
+            }
+
+            .position-name-doctor {
+                font-size  : 12px;
+                font-weight: 600;
+            }
+
+            .clinic-doctor {
+                font-weight: lighter;
+                font-size  : 12px;
+            }
+        }
+    }
+
+}

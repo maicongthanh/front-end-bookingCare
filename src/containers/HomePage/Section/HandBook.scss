@@ -1,0 +1,35 @@
+.section-share.handbook {
+    background-color: #f5f5f5;
+
+    .section-option-handbook {
+        width        : 100%;
+        display      : flex !important;
+        max-height   : 300px;
+        margin-bottom: 25px;
+
+        &:hover {
+            cursor: pointer;
+
+            .handbook-title {
+                color: #45c3d2;
+            }
+        }
+
+        .section-image-handbook {
+            background-image : url('../../../assets/images/specialty/co-xuong-khop.jpg');
+            background-repeat: no-repeat;
+            background-size  : contain;
+            width            : 100% !important;
+            height           : 150px !important;
+        }
+
+        .handbook-title {
+            font-size  : 18px !important;
+            font-weight: 600 !important;
+            width      : 100% !important;
+            padding    : 15px 8px;
+
+        }
+    }
+
+}

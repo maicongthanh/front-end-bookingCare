@@ -1,0 +1,34 @@
+.detail-post-container {
+    .detail-title {
+        h2 {
+            font-weight: 600;
+            font-size  : 30px;
+            padding    : 15px 0;
+        }
+
+    }
+
+    .describe-posts {
+
+        h1,
+        h2,
+        h3 {
+            font-weight: 600;
+            padding    : 10px 0;
+        }
+
+        div {
+            p {
+                img {
+                    width   : 100% !important;
+                    position: relative !important;
+                }
+            }
+        }
+
+        ul {
+            padding: 10px !important;
+        }
+
+    }
+}

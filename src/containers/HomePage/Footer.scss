@@ -1,0 +1,45 @@
+.footer {
+    min-height      : 65px;
+    background-color: #64b9e5;
+
+    .footer-content {
+        display        : flex;
+        color          : white;
+        justify-content: space-between;
+
+        .social {
+            display   : flex;
+            gap       : 15px;
+            margin-top: 5px;
+
+            .icon-facebook {
+
+                padding         : 10px 16px;
+                background-color: #3c579e;
+                display         : flex;
+                justify-content : center;
+                align-items     : center;
+                border-radius   : 6px;
+
+                i {
+                    font-size: 24px;
+                }
+            }
+
+            .icon-youtube {
+
+                padding         : 6px 9px;
+                display         : flex;
+                justify-content : center;
+                align-items     : center;
+                border-radius   : 6px;
+                background-color: #cc191e;
+
+                i {
+                    font-size: 24px;
+                    color    : white;
+                }
+            }
+        }
+    }
+}

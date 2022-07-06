@@ -1,0 +1,112 @@
+.doctor-schedule-container {
+    .all-schedule {
+        select {
+            border       : none;
+            font-size    : 15px;
+            color        : #337ab7;
+            font-weight  : 600;
+            border-bottom: 1px solid #999;
+            margin-bottom: 5px;
+            outline      : none;
+            text-align   : center;
+            height       : 40px;
+            cursor       : pointer;
+
+            option {
+                color: #337ab7;
+            }
+        }
+    }
+
+    .all-available-time {
+        .icon-schedule {
+            margin-top: 5px;
+
+            i {
+                font-size: 16px;
+            }
+
+            span {
+                margin-left   : 10px;
+                text-transform: uppercase;
+                font-weight   : 600;
+            }
+        }
+
+        .btn-schedule-vi {
+            border          : none;
+            outline         : none;
+            background-color: #fff04b;
+            border-radius   : 3px;
+            margin          : 8px 12px 10px 0;
+            min-width       : 125px;
+            padding         : 8px 0 !important;
+            font-size       : 14px;
+            font-weight     : 600;
+
+            &:hover {
+                cursor          : pointer;
+                background-color: #45c3d2;
+                color           : #fff;
+            }
+        }
+
+        .btn-schedule-en {
+            border          : none;
+            outline         : none;
+            background-color: #fff04b;
+            border-radius   : 3px;
+            margin          : 8px 12px 10px 0;
+            min-width       : 170px;
+            padding         : 8px 0 !important;
+            font-size       : 14px;
+            font-weight     : 600;
+
+            &:hover {
+                cursor          : pointer;
+                background-color: #45c3d2;
+                color           : #fff;
+            }
+        }
+
+        .no-schedule-vi {
+            display: none;
+        }
+
+        .no-schedule-vi:nth-child(3) {
+            display    : block !important;
+            padding    : 8px 0;
+            color      : #337ab7;
+            font-weight: 600;
+        }
+
+        .no-schedule-en {
+            display: none;
+        }
+
+        .no-schedule-en:nth-child(3) {
+            display    : block !important;
+            padding    : 8px 0;
+            color      : #337ab7;
+            font-weight: 600;
+        }
+
+        .no-date-schedule {
+            font-weight: 600;
+            color      : #337ab7;
+            line-height: 30px;
+        }
+
+
+        .booking-free {
+            i {
+                padding: 6px;
+
+                &::before {
+                    font-size: 15px !important;
+                }
+            }
+        }
+
+    }
+}
