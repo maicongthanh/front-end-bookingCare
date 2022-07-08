@@ -36,7 +36,7 @@ const LikeAndShare = (props) => {
             <div className="fb-like"
                 data-href={dataHref}
                 data-width=""
-                data-layout="standard"
+                data-layout="button_count"
                 data-action="like"
                 data-size="small"
                 data-share="true">

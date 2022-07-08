@@ -323,7 +323,7 @@ const BookingModal = (props) => {
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-4 form-group'>
+                            <div className='col-md-4 col-sm-12 form-group'>
                                 <label>
                                     <FormattedMessage id="patient.booking.email" />
 
@@ -350,7 +350,7 @@ const BookingModal = (props) => {
                                     </span> :
                                     ''}
                             </div>
-                            <div className='col-4 form-group'>
+                            <div className='col-md-4 col-sm-12 form-group'>
                                 <label>
                                     <FormattedMessage id="patient.booking.firstName" />
 
@@ -367,7 +367,7 @@ const BookingModal = (props) => {
                                     <span className='message-error'>{formErrors.firstName.valueEn}</span>
                                     : ''}
                             </div>
-                            <div className='col-4 form-group'>
+                            <div className='col-md-4 col-sm-12 form-group'>
                                 <label>
                                     <FormattedMessage id="patient.booking.lastName" />
 
@@ -386,7 +386,7 @@ const BookingModal = (props) => {
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-4 form-group'>
+                            <div className='col-md-4 col-sm-12 form-group'>
                                 <label>
                                     <FormattedMessage id="patient.booking.gender" />
 
@@ -404,7 +404,7 @@ const BookingModal = (props) => {
                                     <span className='message-error'>{formErrors.selectedGender.valueEn}</span>
                                     : ''}
                             </div>
-                            <div className='col-4 form-group'>
+                            <div className='col-md-4 col-sm-12 form-group'>
                                 <label>
                                     <FormattedMessage id="patient.booking.phoneNumber" />
 
@@ -421,7 +421,7 @@ const BookingModal = (props) => {
                                     <span className='message-error'>{formErrors.phoneNumber.valueEn}</span>
                                     : ''}
                             </div>
-                            <div className='col-4 form-group'>
+                            <div className='col-md-4 col-sm-12 form-group'>
                                 <label>
                                     <FormattedMessage id="patient.booking.birthday" />
 
@@ -444,7 +444,7 @@ const BookingModal = (props) => {
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-4 form-group'>
+                            <div className='col-md-4 col-sm-12 form-group'>
                                 <label>
                                     <FormattedMessage id="patient.booking.select-province" />
 
@@ -462,7 +462,7 @@ const BookingModal = (props) => {
                                     <span className='message-error'>{formErrors.selectedProvince.valueEn}</span>
                                     : ''}
                             </div>
-                            <div className='col-4 form-group'>
+                            <div className='col-md-4 col-sm-12 form-group'>
                                 <label>
                                     <FormattedMessage id="patient.booking.select-district" />
 
@@ -480,7 +480,7 @@ const BookingModal = (props) => {
                                     <span className='message-error'>{formErrors.selectedDistrict.valueEn}</span>
                                     : ''}
                             </div>
-                            <div className='col-4 form-group'>
+                            <div className='col-md-4 col-sm-12 form-group'>
                                 <label>
                                     <FormattedMessage id="patient.booking.address-province" />
 

@@ -101,4 +101,69 @@
     .menu-container .menu-content {
         width: 190px;
     }
+
+
+    // --------------------------------------
+    .doctor-detail-container.container .intro-doctor .content-left {
+        width : 100px;
+        height: 100px
+    }
+
+    .profile-doctor-container .profile-content {
+        gap: 6px;
+    }
+
+    .profile-doctor-container .profile-content .infor-doctor .name-doctor-detail,
+    .profile-doctor-container .profile-content .infor-doctor .name-doctor {
+        width    : 175px !important;
+        font-size: 15px;
+
+    }
+
+    .profile-doctor-container .profile-content .infor-doctor .time-schedule .content-left .name-clinic {
+        padding    : 5px 0;
+        font-size  : 13px;
+        font-weight: 600;
+        width      : 175px;
+    }
+
+    .profile-doctor-container .profile-content .infor-doctor .time-schedule .content-left {
+        max-width: 175px;
+    }
+
+    .profile-doctor-container .profile-content .infor-doctor .time-schedule .content-right {
+        width      : 175px;
+        font-size  : 13px;
+        margin-left: 14px;
+    }
+
+    .profile-doctor-container .profile-content .infor-doctor .time-schedule .content-right .date {
+        width: 175px;
+    }
+
+    .doctor-extra-infor-container .content-down .body-center .top .top-price {
+        display        : flex;
+        justify-content: space-between;
+        flex-direction : column;
+    }
+
+    .specialty-container .specialty-content .doctor-specialty .content-left .profile-doctor .profile-content,
+    .profile-doctor-container .profile-content .infor-doctor .name-doctor-detail,
+    .profile-doctor-container .profile-content .infor-doctor .name-doctor {
+        width         : 130px !important;
+        font-size     : 15px;
+        flex-direction: column;
+    }
+
+    .doctor-schedule-container .all-schedule select {
+        font-size: 13px;
+    }
+
+    .doctor-extra-infor-container .content-down .body-center {
+        margin-right: 5px;
+    }
+
+    .profile-doctor-container .profile-content .left .more-detail-doctor {
+        margin-right: 20px;
+    }
 }

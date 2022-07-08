@@ -35,11 +35,11 @@ const ProfileDoctor = (props) => {
         nameDoctorVi = ` ${profileDoctor.positionData.valueVi} , ${profileDoctor.firstName} ${profileDoctor.lastName}`
         nameDoctorEn = ` ${profileDoctor.positionData.valueEn} , ${profileDoctor.lastName} ${profileDoctor.firstName}`
         nameDoctor = language === LANGUAGES.VI ? nameDoctorVi : nameDoctorEn
-        price = language === LANGUAGES.VI ? profileDoctor.Doctor_Infor.priceTypeData.valueVi : profileDoctor.Doctor_Infor.priceTypeData.valueEn
-        nameClinic = language === LANGUAGES.VI ? profileDoctor.Doctor_Infor.clinicTypeData.nameVi : profileDoctor.Doctor_Infor.clinicTypeData.nameEn
-        addressClinic = language === LANGUAGES.VI ? profileDoctor.Doctor_Infor.clinicTypeData.addressVi : profileDoctor.Doctor_Infor.clinicTypeData.addressEn
-        location = language === LANGUAGES.VI ? profileDoctor.Doctor_Infor.provinceTypeData.valueVi : profileDoctor.Doctor_Infor.provinceTypeData.valueEn
-        nameSpecialty = language === LANGUAGES.VI ? profileDoctor.Doctor_Infor.specialtyTypeData.nameVi : profileDoctor.Doctor_Infor.specialtyTypeData.nameEn
+        price = language === LANGUAGES.VI ? profileDoctor?.Doctor_Infor.priceTypeData.valueVi : profileDoctor.Doctor_Infor.priceTypeData.valueEn
+        nameClinic = language === LANGUAGES.VI ? profileDoctor?.Doctor_Infor.clinicTypeData.nameVi : profileDoctor.Doctor_Infor.clinicTypeData.nameEn
+        addressClinic = language === LANGUAGES.VI ? profileDoctor?.Doctor_Infor.clinicTypeData.addressVi : profileDoctor.Doctor_Infor.clinicTypeData.addressEn
+        location = language === LANGUAGES.VI ? profileDoctor?.Doctor_Infor.provinceTypeData.valueVi : profileDoctor.Doctor_Infor.provinceTypeData.valueEn
+        nameSpecialty = language === LANGUAGES.VI ? profileDoctor?.Doctor_Infor.specialtyTypeData?.nameVi : profileDoctor.Doctor_Infor.specialtyTypeData?.nameEn
         emitter.emit('PRICE_DATA', { 'price': profileDoctor.Doctor_Infor.priceTypeData })
     }
     if (dataTime && !_.isEmpty(dataTime)) {

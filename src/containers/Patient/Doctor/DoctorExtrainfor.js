@@ -34,9 +34,9 @@ const DoctorExtrainfor = (props) => {
                 <span className='name-clinic'>
                     {doctorExtra && !_.isEmpty(doctorExtra) ?
                         language === LANGUAGES.VI ?
-                            doctorExtra.clinicTypeData.nameVi
+                            doctorExtra.clinicTypeData?.nameVi
                             :
-                            doctorExtra.clinicTypeData.nameEn
+                            doctorExtra.clinicTypeData?.nameEn
                         : ''
                     }
                 </span>
@@ -44,9 +44,9 @@ const DoctorExtrainfor = (props) => {
                 <span className='address-clinic'>
                     {doctorExtra && !_.isEmpty(doctorExtra) ?
                         language === LANGUAGES.VI ?
-                            doctorExtra.clinicTypeData.addressVi
+                            doctorExtra.clinicTypeData?.addressVi
                             :
-                            doctorExtra.clinicTypeData.addressEn
+                            doctorExtra.clinicTypeData?.addressEn
                         : ''
                     }
                 </span>

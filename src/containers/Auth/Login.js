@@ -36,6 +36,7 @@ const Login = ({ userLoginSuccess, language }) => {
                 timeDate: (new Date().getTime())
             })
             if (res && res.errCode === 0) {
+                formik.values.emailForgot = ''
                 toast.success('Vui lòng kiểm tra email để xác nhận')
             } else {
                 setErrServerForgotPassword('Email không tồn tại , vui lòng thử lại !')

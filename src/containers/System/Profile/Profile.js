@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import { LANGUAGES } from "../../../utils";
 import "./Profile.scss";
 import ChangePassword from "./ChangePassword";
+import moment from "moment";
 const Profile = (props) => {
 
     const { userInfo, language } = props
@@ -30,7 +31,7 @@ const Profile = (props) => {
         clinicVi = userInfo.Doctor_Infor.clinicTypeData.nameVi
         clinicEn = userInfo.Doctor_Infor.clinicTypeData.nameEn
         imageBase64 = Buffer.from(userInfo.image, 'base64').toString('binary');
-
+        birthday = moment(+userInfo.birthday).format('DD/MM/YYYY')
     }
 
     const handleIsOpenChangePassword = () => {
@@ -103,7 +104,7 @@ const Profile = (props) => {
                                         <input
                                             type="text"
                                             className="form-control"
-                                            value={'abc'}
+                                            value={birthday}
                                             disabled
                                         />
                                     </div>

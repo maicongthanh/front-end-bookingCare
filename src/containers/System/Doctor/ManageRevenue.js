@@ -223,7 +223,6 @@ const ManageRevenue = (props) => {
                                     dateFormat={language === LANGUAGES.VI ? "dd/MM/yyyy" : "MM/dd/yyyy"}
                                     placeholderText={language === LANGUAGES.VI ? 'Vui lòng chọn ngày' : 'Please choose day'}
                                     name='selectedDay'
-                                    maxDate={new Date()}
                                 />
                             </div>
                         }
@@ -240,7 +239,6 @@ const ManageRevenue = (props) => {
                                         dateFormat={language === LANGUAGES.VI ? "dd/MM/yyyy" : "MM/dd/yyyy"}
                                         placeholderText={language === LANGUAGES.VI ? 'Vui lòng chọn ngày' : 'Please choose day'}
                                         name='selectedDayMonth'
-                                        maxDate={new Date()}
                                     />
                                 </div>
                                 <div className="week-month-date-picker">
@@ -250,7 +248,6 @@ const ManageRevenue = (props) => {
                                         onChange={(date) => handleOnchangeDatePicker(date, 'selectedWeekMonthYear')}
                                         dateFormat={language === LANGUAGES.VI ? "dd/MM/yyyy" : "MM/dd/yyyy"}
                                         className="form-control"
-                                        maxDate={new Date()}
                                         name='selectedWeekMonthYear'
                                         placeholderText={language === LANGUAGES.VI ? 'Vui lòng chọn ngày' : 'Please choose day'}
 

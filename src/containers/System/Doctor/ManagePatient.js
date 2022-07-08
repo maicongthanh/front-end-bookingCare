@@ -148,7 +148,7 @@ const ManagePatient = (props) => {
             dateVi,
             dateEn,
             firstNameDoctor: item1.doctorTypeData.firstName,
-            lastNameDoctor: item1.doctorTypeData.LastName,
+            lastNameDoctor: item1.doctorTypeData.lastName,
             firstName: item1.firstName,
             lastName: item1.lastName
         }

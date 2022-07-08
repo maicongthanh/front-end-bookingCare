@@ -14,7 +14,14 @@ import RoleBookingCare from '../RoleBookingCare/RoleBookingCare';
 import Information from '../../HomePage/Section/Information';
 import { FormattedMessage } from 'react-intl';
 const DetailSpecialty = (props) => {
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 
+    useEffect(() => {
+        topFunction()
+    }, [])
     const { language } = props
     let specialtyId = ''
     if (props && props.match && props.match.params) {
